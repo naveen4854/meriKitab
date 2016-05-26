@@ -6,7 +6,7 @@ import merikitab.customRestAuthFilter
 import merikitab.CustRestAuthenticationFailureHandler
 
 beans = {
-  corsFilter(CorsFilter)
+  //corsFilter(CorsFilter)
   mySecurityEventListener(MySecurityEventListener)
   credentialsExtractor(DefaultJsonPayloadCredentialsExtractor)
   AuthenticationEntryPoint(CustomAuthenticationEntryPoint)

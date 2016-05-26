@@ -2,7 +2,7 @@ package merikitab.structure
 
 import grails.rest.*
 
-@Resource(uri='/std', formats=['json', 'xml'])
+@Resource(formats=['json', 'xml'])
 class Std {
 
 	String name

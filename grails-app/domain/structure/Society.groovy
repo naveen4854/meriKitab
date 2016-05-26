@@ -2,7 +2,7 @@ package merikitab.structure
 
 import grails.rest.*
 
-@Resource(uri='/society', formats=['json', 'xml'])
+@Resource(formats=['json', 'xml'])
 class Society {
 
 	static belongsTo = [school: School, franchise: Franchise, board: Board]

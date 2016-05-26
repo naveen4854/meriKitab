@@ -2,7 +2,7 @@ package merikitab.structure
 
 import grails.rest.*
 
-@Resource(uri='/section', formats=['json', 'xml'])
+@Resource(formats=['json', 'xml'])
 class Section {
 
 	String name
